@@ -1,4 +1,4 @@
-curretore-sardu-online
+Curretore sardu in lìnia 
 ======================
 
-Su curretore ortogràficu pro su sardu. Versione a còdighe abertu.
+Su curretore ortogràficu pro su sardu. Versione in lìnia a còdighe abertu.
