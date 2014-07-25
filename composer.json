@@ -1,14 +1,26 @@
 {
 	"name": "sardsoft/curretore-sardu-in-linia",
-	"description": ".",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"description": "Su curretore ortogràficu pro su sardu. Versione in lìnia a còdighe abertu.",
+    "version": "0.1-dev",
+    "type": "project",
+	"keywords": ["curretore", "sardu"],
+    "homepage": "http://curretore.sardsoft.org",
+	"license": "AGPL-3.0+",
+    "authors": [
+        {
+            "name": "Massimeddu Musu Cireddu",
+            "email": "massimeddu@sardsoft.org",
+            "homepage": "http://doshefreesaw.progeturepublica.net/",
+            "role": "Project Leader"
+        }
+    ],
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "~4.2"
 	},
     "require-dev": {
-        "barryvdh/laravel-ide-helper": "1.*",
-        "phpmd/phpmd" : "2.0.*"
+        "barryvdh/laravel-ide-helper": "~1.0",
+        "phpmd/phpmd" : "~2.0",
+        "caouecs/laravel4-lang": "dev-master"
     },
 	"autoload": {
 		"classmap": [
@@ -37,5 +49,6 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+    "prefer-stable": true
 }

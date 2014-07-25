@@ -1,0 +1,29 @@
+{
+    "name": "curretore-sardu-in-linia",
+    "version": "0.1.0-dev",
+    "description": "Su curretore ortogràficu pro su sardu. Versione in lìnia a còdighe abertu",
+    "main": "Gruntfile.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SardSoft/curretore-sardu-in-linia.git"
+    },
+    "keywords": [
+        "curretore",
+        "sardu"
+    ],
+    "author": "Massimeddu Musu Cireddu <massimeddu@sardsoft.org>",
+    "license": "AGPL-3.0+",
+    "homepage": "http://curretore.sardsoft.org",
+    "bugs": {
+        "url": "https://github.com/SardSoft/curretore-sardu-in-linia/issues"
+    },
+    "devDependencies": {
+        "grunt": "~0.4",
+        "grunt-contrib-concat": "~0.3",
+        "grunt-contrib-copy": "~0.4",
+        "grunt-contrib-less": "~0.8",
+        "grunt-contrib-uglify": "~0.2",
+        "grunt-contrib-watch": "~0.5",
+        "grunt-phpunit": "~0.3"
+    }
+}

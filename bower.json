@@ -1,0 +1,33 @@
+{
+    "name": "sardsoft/curretore-sardu-in-linia",
+    "description": "Su curretore ortogràficu pro su sardu. Versione in lìnia a còdighe abertu.",
+    "version": "0.1-dev",
+    "authors": [
+        "Massimeddu Musu Cireddu <massimeddu@sardsoft.org>"
+    ],
+    "keywords": [
+        "curretore",
+        "sardu"
+    ],
+    "license": "AGPL-3.0+",
+    "homepage": "http://curretore.sardsoft.org",
+    "bugs": {
+        "url": "https://github.com/SardSoft/curretore-sardu-in-linia/issues"
+    },
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "app/assets/components/bower",
+        "app/tests"
+    ],
+    "dependencies": {
+        "uikit": "~2",
+        "jquery": "~2",
+        "modernizr": "~2",
+        "requirejs": "~2"
+    },
+    "resolutions": {
+        "jquery": "~2"
+    }
+}
