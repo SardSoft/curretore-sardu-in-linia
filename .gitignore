@@ -8,4 +8,5 @@ Thumbs.db
 .idea
 phpstorm_settings
 node_modules
+vendor
 app/assets/components/bower
