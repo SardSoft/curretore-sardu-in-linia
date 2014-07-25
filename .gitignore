@@ -1,4 +1,4 @@
-/bootstrap/compiled.php
+bootstrap/compiled.php
 composer.phar
 composer.lock
 .env.*.php
@@ -7,3 +7,5 @@ composer.lock
 Thumbs.db
 .idea
 phpstorm_settings
+node_modules
+app/assets/components/bower
