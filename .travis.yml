@@ -7,7 +7,7 @@ before_script:
   - travis_retry composer self-update
   - travis_retry composer install --prefer-source --no-interaction --dev
   - travis_retry npm install -g bower grunt grunt-cli
-  - travis_retry npm install -g grunt grunt-contrib-concat grunt-contrib-copy grunt-contrib-less grunt-contrib-uglify grunt-contrib-watch grunt-phpunit
+  - travis_retry npm install grunt grunt-contrib-concat grunt-contrib-copy grunt-contrib-less grunt-contrib-uglify grunt-contrib-watch grunt-phpunit
   - travis_retry bower install
   - travis_retry bower update
   - travis_retry grunt develop
