@@ -10,5 +10,5 @@ before_script:
   - travis_retry npm install grunt grunt-contrib-concat grunt-contrib-copy grunt-contrib-less grunt-contrib-uglify grunt-contrib-watch grunt-phpunit
   - travis_retry bower install
   - travis_retry bower update
-  - travis_retry grunt develop
+  - travis_retry grunt travis
 script: phpunit --configuration phpunit.xml --coverage-text

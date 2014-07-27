@@ -110,4 +110,6 @@ module.exports = function(grunt) {
     // Set an additional initialization task to call before running the application the first time
     grunt.registerTask('develop', ['less', 'concat', 'copy', 'watch']);
 
+    grunt.registerTask('travis', ['less', 'concat', 'copy']);
+
 };
